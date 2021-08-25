@@ -76,12 +76,12 @@ function rollDice(){
 
   if(diceRolls == 5){
     if(player1Score > player2Score){
-      alert('Player One Wins with a score of ' + player1Score)
+      $('#main-header').text('Player 1 wins with a score of ' + player1Score)
     }
     else if(player1Score < player2Score){
-      alert('Player 2 wins with a score of ' + player2Score)
+      $('#main-header').text('Player 2 wins with a score of ' + player2Score)
     } else if(player1Score == player2Score){
-      alert("It's a tie, play again")
+      $('#main-header').text("It's a tie, play again")
     }
     
     diceRolls = 0
