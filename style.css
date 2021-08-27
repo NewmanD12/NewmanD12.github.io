@@ -1,11 +1,17 @@
 body {
   background-color: slategrey;
+  color: lightskyblue;
 }
 
 img#home-image {
   border-radius: 50%;
   border: 2px solid black;
 }
+
+a.nav-link {
+  color: white;
+}
+
 a#learn-more-button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -22,4 +28,8 @@ a#learn-more-button {
 #main-pic{
   border-radius: 30%;
   border: solid lightcyan;
+}
+
+img.img-fluid {
+  border-radius: 20px;
 }
